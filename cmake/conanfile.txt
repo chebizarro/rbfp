@@ -1,0 +1,9 @@
+[requires]
+rxcpp/4.1.0@bincrafters/stable
+eigen/3.3.7@conan/stable
+RoutingKit/1.0@cyllene/stable
+
+[generators]
+cmake
+cmake_find_package
+cmake_find_package_multi
