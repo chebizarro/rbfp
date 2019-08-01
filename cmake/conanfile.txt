@@ -2,6 +2,7 @@
 rxcpp/4.1.0@bincrafters/stable
 eigen/3.3.7@conan/stable
 RoutingKit/1.0@cyllene/stable
+jsonformoderncpp/3.7.0@vthiery/stable
 
 [generators]
 cmake

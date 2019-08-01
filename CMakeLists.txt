@@ -25,8 +25,10 @@ add_executable(rbpf
         lib/State.h
         lib/filter.cpp
         lib/filter.h
-        )
+        lib/routing.h lib/Point.cpp lib/Point.h lib/Route.cpp lib/Route.h lib/RoutingEngine.h lib/OSMOfflineRoutingEngine.cpp lib/OSMOfflineRoutingEngine.h)
 
 add_executable(routing routing/routing.cpp)
 
 target_link_libraries(routing ${RoutingKit_LIBRARIES})
+
+add_executable(sim sim/Simulation.cpp sim/Simulation.h sim/sim.cpp sim/Agent.cpp sim/Agent.h)
