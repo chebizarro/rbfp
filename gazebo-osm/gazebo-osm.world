@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="default">
+
+        <plugin name="gazebo-osm" filename="libgazebo-osm.so">
+            <file>/path/to/pbf</file>
+        </plugin>
+
+    </world>
+</sdf>

@@ -3,8 +3,10 @@ rxcpp/4.1.0@bincrafters/stable
 eigen/3.3.7@conan/stable
 RoutingKit/1.0@cyllene/stable
 jsonformoderncpp/3.7.0@vthiery/stable
+pugixml/1.9@bincrafters/stable
+frozen/20181020@bincrafters/stable
+Catch2/2.9.1@catchorg/stable
 
 [generators]
 cmake
 cmake_find_package
-cmake_find_package_multi
